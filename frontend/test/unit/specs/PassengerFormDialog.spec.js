@@ -38,12 +38,12 @@ describe('PassengerFormDialog.vue', () => {
       propsData: {
         actionname: 'create',
         passengerins: {
+          id: 'Test',
           firstName: 'User',
           lastName: '1',
           age: 25,
           gender: 'Female',
-          phone: 9876543210,
-          id: 'Test'
+          phone: 9876543210
         }
       },
       data () {
@@ -61,6 +61,7 @@ describe('PassengerFormDialog.vue', () => {
       propsData: {
         actionname: 'edit',
         passengerins: {
+          id:"test1",
           firstName: 'User',
           lastName: '1',
           age: 25,
