@@ -20,7 +20,6 @@ describe('PassengerFormDialog.vue', () => {
     expect(PassengerFormDialog.data().genders).to.be.deep.equal(['Male', 'Female', 'Other'])
     expect(PassengerFormDialog.data().passengerId).to.equal(null)
     expect(PassengerFormDialog.data().firstName).to.equal(null)
-    expect(PassengerFormDialog.data().id).to.equal(null)
     expect(PassengerFormDialog.data().lastName).to.equal(null)
     expect(PassengerFormDialog.data().age).to.equal(null)
     expect(PassengerFormDialog.data().gender).to.equal(null)
@@ -91,6 +90,7 @@ describe('PassengerFormDialog.vue', () => {
       },
       data () {
         return {
+          id:3,
           firstName: 'User',
           lastName: '1',
           age: 25,
@@ -113,6 +113,7 @@ describe('PassengerFormDialog.vue', () => {
       },
       data () {
         return {
+          id:2,
           passengerId: 1,
           firstName: 'User',
           lastName: '1',
@@ -136,6 +137,7 @@ describe('PassengerFormDialog.vue', () => {
       },
       data () {
         return {
+          id:null,
           firstName: null,
           lastName: null,
           age: null,
@@ -157,6 +159,7 @@ describe('PassengerFormDialog.vue', () => {
       },
       data () {
         return {
+          id :2,
           passengerId: 1,
           firstName: null,
           lastName: null,
