@@ -20,6 +20,7 @@ describe('PassengerFormDialog.vue', () => {
     expect(PassengerFormDialog.data().genders).to.be.deep.equal(['Male', 'Female', 'Other'])
     expect(PassengerFormDialog.data().passengerId).to.equal(null)
     expect(PassengerFormDialog.data().firstName).to.equal(null)
+    expect(PassengerFormDialog.data().id).to.equal(null)
     expect(PassengerFormDialog.data().lastName).to.equal(null)
     expect(PassengerFormDialog.data().age).to.equal(null)
     expect(PassengerFormDialog.data().gender).to.equal(null)
