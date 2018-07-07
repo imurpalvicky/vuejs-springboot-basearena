@@ -56,7 +56,8 @@ export default {
         lastName: null,
         age: null,
         gender: null,
-        phone: null
+        phone: null,
+        id: null
       })
     },
     actionname: {
