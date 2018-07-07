@@ -2,7 +2,19 @@ import App from '@/App'
 
 describe('App.vue', () => {
   it('should be initialized with proper values', () => {
-    const items = []
+    const items = [{
+      path: 'flight',
+      icon: 'fas fa-plane',
+      title: 'Flights'
+    }, {
+      path: 'passenger',
+      icon: 'fas fa-user-circle',
+      title: 'Passengers'
+    }, {
+      path: 'reservation',
+      icon: 'fas fa-clipboard-check',
+      title: 'Reservations'
+    }]
 
     expect(App.data().clipped).to.equal(false)
     expect(App.data().drawer).to.equal(false)

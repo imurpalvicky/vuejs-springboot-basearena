@@ -61,7 +61,7 @@ describe('PassengerFormDialog.vue', () => {
       propsData: {
         actionname: 'edit',
         passengerins: {
-          id:"test1",
+          id:'test1',
           firstName: 'User',
           lastName: '1',
           age: 25,
