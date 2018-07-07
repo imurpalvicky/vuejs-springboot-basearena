@@ -42,7 +42,8 @@ describe('PassengerFormDialog.vue', () => {
           lastName: '1',
           age: 25,
           gender: 'Female',
-          phone: 9876543210
+          phone: 9876543210,
+          id: 'Test'
         }
       },
       data () {
